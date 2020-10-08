@@ -2,8 +2,8 @@
 # Easy to test
 # Not quite Hadoop-ready
 
-with open("output12sorted.txt","r") as sorted:
-  with open("output13reduced.txt", "w") as output:
+with open("sarozOutput12Mapped.txt","r") as sorted:
+  with open("sarozOutput13Mapped.txt", "w") as output:
 
     thisKey = ""
     thisValue = 0.0
