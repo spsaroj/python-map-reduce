@@ -14,4 +14,3 @@ for line in sys.stdin:
 
     # print intermediate key-value pairs to standard output
     print(store + "\t" + cost + "\n")
-
