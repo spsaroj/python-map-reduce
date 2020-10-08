@@ -35,6 +35,27 @@ cat part.txt | python 21mapper.py | sort  | python 22reducer.py
 
 ```
 
+To process the larger files in case 1
+
+```Bash
+cat purchases.txt
+cat purchases.txt | python 11mapper.py
+cat purchases.txt | python 11mapper.py | sort
+cat purchases.txt | python 11mapper.py | sort  | python 13reducer.py
+
+```
+
+To process the larger files in case 2
+
+```Bash
+cat purchases.txt
+cat purchases.txt | python 21mapper.py
+cat purchases.txt | python 21mapper.py | sort
+cat purchases.txt | python 21mapper.py | sort  | python 22reducer.py
+
+```
+
+
 ## References
 
 - [Udacity "Introduction to Hadoop and MapReduce"](https://classroom.udacity.com/courses/ud617/)
